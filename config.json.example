@@ -1,0 +1,12 @@
+{
+    "mic": {
+        "rate": "48000",
+        "channels": "2",
+        "device": "plughw:CARD=system,DEV=0"
+    },
+    "discord": {
+        "token": "<bot_token>",
+        "guild": "<server_name>",
+        "channel": "<channel_name>"
+    }
+}
