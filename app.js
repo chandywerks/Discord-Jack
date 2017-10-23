@@ -43,9 +43,9 @@ client.on('ready', () => {
         connection.playConvertedStream( audioStream );
         micInstance.start();
     })
-    .catch( () => {
+    .catch( e => {
         console.log('Unable to connect to the voice channel');
-        console.error;
+        console.log(e);
         process.exit();
     });
 });
