@@ -1,7 +1,7 @@
 Discord-Jack
 =================
 
-Audio capture discord bot. Tested with the Raspberry Pi and the iMic USB audio card.
+Stereo audio capture discord bot. Tested with the Raspberry Pi and the Griffin Technology iMic USB Audio Interface.
 
 ### Raspberry Pi Setup
 
@@ -13,4 +13,27 @@ Install Node 8.x
     sudo apt-get update
     sudo apt-get install nodejs
 
+Install ffmpeg.
+
+    sudo apt-get install ffmpeg
+
 Now continue to the regular installation instructions.
+
+### Installation
+
+Make sure you have Node JS 8.x installed.
+
+Clone the repo.
+
+    git clone git@github.com:chandwki/Discord-Jack.git
+
+Install npm dependencies.
+
+    cd Discord-Jack
+    npm install
+
+Copy the config.json.example file to config.json and edit it.
+
+To create a discord bot token follow the [instructions here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token).
+
+Also add your discord server "guild" name and the name of the channel you want the bot pipe your audio to.
